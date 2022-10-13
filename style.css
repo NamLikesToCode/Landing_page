@@ -113,8 +113,19 @@ body {
 }
 
 .maincontent4 {
-    min-height: 30vh;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #172d4d;
+}
 
+.blue-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 .footer {
     background-color: #1f2937;
@@ -141,7 +152,7 @@ a{
     color: rgb(29, 187, 235);
 }
 
-.button1 {
+.button1,.button2 {
     width: 150px;
     height: 60px;
     border-radius: 10px;
@@ -152,6 +163,7 @@ a{
     background-color: rgb(34, 54, 93);
     color: violet;
     margin-top: 10px;
+    
 }
 
 .gamepics {
@@ -189,4 +201,23 @@ border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.blue-box {
+    width: 800px;
+    height: 200px;
+    border: 2px solid rgb(29, 187, 235);
+    border-radius: 10px;
+}
+
+.quotediv3 {
+    color: rgb(29, 187, 235);
+    font-size: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(29, 187, 235);
 }
