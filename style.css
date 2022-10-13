@@ -1,0 +1,141 @@
+.header {
+    height: 100px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.rightlinks {
+    padding-right: 4em;
+    font-size: 30px;
+    color: violet;
+    font-weight: 500;
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: 800;
+    color: violet;
+    font-family: Helvetica;
+    padding-left: 2em;
+    
+    
+}
+.Heromaintext {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.Herosubtext {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+body {
+    margin: 0;
+    background-color: #1f2937;
+    font-family: Helvetica;
+
+
+    
+}
+.maincontent1 {
+    color: #f9faf8;
+    min-height: 700px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.image1 {
+
+
+}
+.maincontent2 {
+    background-color: rgb(47, 49, 54);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+
+.maincontent2images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  
+}
+.maincontent3 {
+    background-color: #e5e7eb;
+    min-height: 30vh;
+}
+
+.maincontent4 {
+    min-height: 30vh;
+
+}
+.footer {
+    background-color: #1f2937;
+    min-height: 72px;
+}
+a{
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-items: center;
+
+}
+
+.Herosubtext {
+    padding-right: 135px;
+    font-size: 30px;
+}
+
+.button1 {
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: violet;
+    font-size: 22px;
+    font-family: Helvetica;
+    align-self: flex-start;
+    background-color: rgb(34, 54, 93);
+    color: violet;
+    margin-top: 10px;
+}
+
+.gamingcafeedit {
+    border: 2px solid violet;
+    border-radius: 8px;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.text {
+    padding-top: 20px;
+    color: violet;
+    justify-self: center;
+    align-self: center;
+
+}
