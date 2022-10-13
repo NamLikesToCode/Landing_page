@@ -11,7 +11,7 @@
 .rightlinks {
     padding-right: 4em;
     font-size: 30px;
-    color: violet;
+    color: rgb(29, 187, 235);
     font-weight: 500;
 }
 
@@ -20,20 +20,19 @@
     font-weight: 800;
     color: violet;
     font-family: Helvetica;
-    padding-left: 2em;
+    padding-left: 70px;
     
     
 }
 .Heromaintext {
     font-size: 48px;
     font-weight: 800;
-    color: #f9faf8;
+    color: rgb(29, 187, 235);
 }
 
 .Herosubtext {
-    font-size: 18px;
-    color: #e5e7eb;
 
+   
 }
 
 body {
@@ -54,7 +53,40 @@ body {
 
 }
 
-.image1 {
+.maincontent2dot5 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.quote {
+    font-size: 30px;
+    color: rgb(29, 187, 235);
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    
+}
+
+.quote2 {
+    color: rgb(29, 187, 235);
+    font-size: 25px;
+
+
+}
+
+.quotediv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -40px;
+    margin-right: -70px;
+
 
 
 }
@@ -72,7 +104,7 @@ body {
 .maincontent2images {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
   
 }
 .maincontent3 {
@@ -98,14 +130,15 @@ a{
 .text1 {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 700px;
     align-items: center;
 
 }
 
 .Herosubtext {
-    padding-right: 135px;
+
     font-size: 30px;
+    color: rgb(29, 187, 235);
 }
 
 .button1 {
@@ -121,9 +154,21 @@ a{
     margin-top: 10px;
 }
 
-.gamingcafeedit {
+.gamepics {
     border: 2px solid violet;
     border-radius: 8px;
+    width: 350px;
+    height: 250px;
+
+}
+.gamingcafeedit {
+border: 2px solid violet;
+border-radius: 8px; 
+}
+
+.barpic {
+    width: 900px;
+    height: auto;
 }
 
 .imagecontainer {
@@ -138,4 +183,10 @@ a{
     justify-self: center;
     align-self: center;
 
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
