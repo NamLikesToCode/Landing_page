@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/Practice/index.html -->
+<html lang="en"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><style lang="en" type="text/css" id="dark-mode-native-sheet"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice HTML Page</title>
+    <link rel="stylesheet" type="text/css" href="./Practice HTML Page_files/style.css">
+
+    
+</head>
+<body>
+    <script>
+        let a = 3;
+        let x = (100 + 50) * a;
+        document.getElementById("demo").innerHTML = x;
+        </script>
+    <script> console.log(100*5) </script>
+    <script>
+        
+        console.log("Hello, World!")
+      </script>
+      <script> console.log(23 + 97)</script>
+    <!-- Headings -->
+    <h1> Header 1</h1>
+    <h2> Header 2</h2>
+    <h3> Header 3</h3>
+    <h4> Header 4</h4>
+    <p> 
+    This is a paragraph.
+    <strong> strong test test. </strong>
+    Test test test 2.
+    </p>
+    <div class="container1"> 
+        <div> Div 1 </div>
+        <div> div 2 </div>
+        <div class="box1">
+            <p>text test</p>
+            <p> text test 2</p>
+            <p> text test 3</p>
+
+        </div>
+    </div>
+    
+    <ul> 
+        <li> list one </li>
+        <li> list two </li>
+    </ul>
+    <ol>
+        <li> list one</li>
+        <li> list two </li>
+    </ol>
+    <!-- table-->
+    <table>
+        <thead>
+        <tr><th> name</th>
+        <th> email</th>
+        <th> age </th>
+        </tr></thead>
+        <tbody>
+            <tr>
+            <td> Brad Mark</td>
+            <td> something@gmail.com</td>
+            <td> 23 </td>
+            </tr>    
+            <tr>
+            <td> Mark Mark</td>
+            <td> somethingelse@gmail.com</td>
+            <td> 43 </td>
+            </tr>  
+           </tbody>
+        </table>
+           <br>
+           <hr>
+           <br>
+            <!-- Forms-->
+            
+            <form>
+                <div>
+                <label> First Name</label>
+                <input type="text" name="firstName" placeholder="Enter First Name">
+                </div>
+                <br>
+                <div>
+                <label> Last Name</label>
+                <input type="text" name="lastName" placeholder="Enter Last Name">
+                </div>
+                <br>
+                <div>
+                <label> Email </label>
+                <input type="text" name="email">
+                </div>
+                <br>
+                <div>
+                <label> Message </label>
+                <textarea name="Message"> </textarea>
+                </div>
+                <br>
+                <div>
+                    <label> Gender </label>
+                    <select name="gender">
+                        <option value="male"> Male</option>
+                        <option value="female"> Female</option>
+                        <option value="other"> Other</option>
+                    </select>
+                    </div>
+                    <br>
+                    <input type="submit" name="submit" value="Submit">
+            </form>
+            <button>Click Me</button>
+            <br>
+            <a href="http://127.0.0.1:5500/Practice/sample.jpg">
+            <img src="./Practice HTML Page_files/images.sample.jpg" alt="Bird" width="200px">
+            </a>
+            <!-- Quotations-->
+            <blockquote cite="./Practice HTML Page_files/saved_resource">
+                Lorem ipsum
+            </blockquote>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
